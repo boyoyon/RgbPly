@@ -6,9 +6,12 @@
         <h1><center>RgbPly</center></h1>
         <h2>なにものか？</h2>
         <p>
-            RGB画像とテクスチャ座標付き3Dデータ(.ply)を指定してテクスチャーマップされた3Dオブジェクトを表示します。
-<br>
-            <img src="images/RgbPly.png">
+            RGB画像とテクスチャ座標付き3Dデータ(.ply)を指定してテクスチャーマップされた3Dオブジェクトを表示します。<br>
+            <br>
+            入力画像<br>
+            <img src="data/cat.png"><br>
+            3Dオブジェクト表示<br>
+            <img src="images/cat.gif"><br>
         </p>
         <h2>環境構築方法</h2>
         <p>
