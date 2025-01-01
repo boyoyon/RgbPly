@@ -15,7 +15,7 @@
         </p>
         <h2>環境構築方法</h2>
         <p>
-            pip install opencv-python PyOpenGL glfw
+            pip install opencv-python PyOpenGL glfw plyfile
         </p>
         <h2>使い方</h2>
         <p>
