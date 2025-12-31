@@ -28,6 +28,8 @@
                 <tr><td>rキー押下＋ホイール回転</td><td>3Dモデルの回転(roll)</td></tr>
                 <tr><td>右ボタン押下＋ドラッグ</td><td>3Dモデルの移動</td></tr>
                 <tr><td>ホイール回転</td><td>3Dモデルの拡大・縮小</td></tr>
+                <tr><td>Uキー押下, Shift＋Uキー押下</td><td>3Dモデルの拡大</td></tr>
+                <tr><td>Dキー押下, Shift＋Dキー押下</td><td>3Dモデルの縮小</td></tr>
                 <tr><td>ホイールボタン押下</td><td>慣性モードのトグル(on⇔off)</td></tr>
                 <tr><td>iキー押下</td><td>(同上)</td></tr>
                 <tr><td>sキー押下</td><td>スクリーンショット保存</td></tr>
