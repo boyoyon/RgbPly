@@ -43,6 +43,8 @@ KEY_S = 83 # screen shot
 KEY_R = 82 # roll
 KEY_Z = 90 # depth
 KEY_P = 80 # save filtered ply
+KEY_U = 85 # scale up
+KEY_D = 68 # scale down
 
 MODS_SHIFT = 1
 
@@ -324,6 +326,18 @@ def keyboardEvent(window, key, scancode, action, mods):
             Scale += 0.1
         else:
             Scale -= 0.1
+
+    if key == KEY_U:
+        if mods == MODS_SHIFT:
+            Scale *= 1.5
+        else:
+            Scale *= 1.1
+
+    if key == KEY_D:
+        if mods == MODS_SHIFT:
+            Scale *= 0.5
+        else:
+            Scale *= 0.9
 
     if action == 1: #press key
         if key == KEY_S:
